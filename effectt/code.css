@@ -1,0 +1,85 @@
+html{
+     font-family: Arial, Helvetica, sans-serif;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header img{
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+
+.dulich .word {
+    margin-top: 10px;
+    background-color: deepskyblue;
+    display: block;
+    width: 100%;
+    height: 100px;
+    border-radius: 2px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.word h1{
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px 0 ;
+}
+
+.word h2{
+    font-size: 18px;
+    color: white;
+    padding: 6px 0;
+}
+
+.img-hagiang{
+    /* position: relative; */
+    margin-top: 20px;
+    height: 500px;
+}
+.img-hagiang img{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    left: calc(100%/2);
+     transform: translateX(-50%); 
+     /* border-radius: 35px; */
+     border: 3px solid #ccc;    
+}
+
+.img-hagiang p{
+    color:deepskyblue;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    text-align: justify;
+    left: calc(100%/2);
+    transform: translatex(-50%);
+    box-shadow: 1px 2px 1px 2px #ccc;
+    padding: 8px 8px;  
+}
+
+.sale{
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    background-color: red;
+    padding: 7px 7px;
+    left: 43%;
+    bottom: 8%;
+    
+    
+    
+}
+
+
+ 
+
